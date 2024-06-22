@@ -1,5 +1,5 @@
 {
-    "name": "laravel-admin-ext/config",
+    "name": "vonsofh/laravel-admin-config",
     "description": "Config extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "setting"],
@@ -12,9 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "laravel/framework": ">=5.5",
-        "encore/laravel-admin": ">=1.6"
+        "php": "^8.1|^8.2",
+        "laravel/framework": "^10.0",
+        "encore/laravel-admin": "^1.8"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0",
